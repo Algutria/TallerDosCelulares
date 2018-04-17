@@ -59,7 +59,7 @@ public class Principal extends AppCompatActivity {
                     case 3:
                         average = Data.getNokiaPriceAverage(getResources());
                         reportName = getResources().getString(R.string.report_two);
-                        message = getResources().getString(R.string.report_two_message) + ": " + average;
+                        message = getResources().getString(R.string.report_two_message) + ": " + String.format("%.2f", average);
                         showDialog(reportName, message);
 
                         break;
