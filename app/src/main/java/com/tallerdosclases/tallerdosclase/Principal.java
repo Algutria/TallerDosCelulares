@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.text.NumberFormat;
 import java.util.ArrayList;
 
 public class Principal extends AppCompatActivity {
@@ -59,7 +60,10 @@ public class Principal extends AppCompatActivity {
                     case 3:
                         average = Data.getNokiaPriceAverage(getResources());
                         reportName = getResources().getString(R.string.report_two);
-                        message = getResources().getString(R.string.report_two_message) + ": " + String.format("%.2f", average);
+
+                        String formattedAverage = "$" + NumberFormat.getNumberInstance().format(average);
+
+                        message = getResources().getString(R.string.report_two_message) + ": " + formattedAverage;
                         showDialog(reportName, message);
 
                         break;

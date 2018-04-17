@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/priceLabel"
@@ -29,11 +29,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/price"
+            android:layout_marginBottom="15dp"
             android:textSize="18dp" />
 
         <EditText
             android:id="@+id/phonePrice"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
@@ -46,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/brandLabel"
@@ -54,11 +55,13 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="18dp"
+            android:layout_marginBottom="10dp"
             android:text="@string/brand" />
 
         <Spinner
             android:id="@+id/brandSpinner"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
+            android:scrollbarSize="20dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10sp" />
 
@@ -68,7 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/colorLabel"
@@ -76,11 +79,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="18dp"
+            android:layout_marginBottom="10dp"
             android:text="@string/color" />
 
         <Spinner
             android:id="@+id/colorSpinner"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10sp" />
 
@@ -97,6 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textSize="18dp"
             android:onClick="savePhone"
             android:text="@string/save" />
 
@@ -105,6 +110,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textSize="18dp"
             android:onClick="delete"
             android:text="@string/delete" />
     </LinearLayout>

@@ -33,7 +33,8 @@ public class ListPhones extends AppCompatActivity {
             brand.setText(phones.get(i).getBrand());
             color.setText(phones.get(i).getColor());
 
-            price.setText(phones.get(i).getPrice().toString());
+            String formattedPrice = "$" + NumberFormat.getNumberInstance().format(phones.get(i).getPrice());
+            price.setText(formattedPrice);
 
             row.addView(phoneID);
             row.addView(brand);
