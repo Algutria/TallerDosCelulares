@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Taller Dos Clase</string>
+
+    <string name="options">Opciones</string>
+    <string name="price">Precio</string>
+    <string name="brand">Marca</string>
+    <string name="color">Color</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Borrar</string>
+
+    <string name="create_phone">Crear Telefono</string>
+    <string name="list_phones">Listar Telefonos</string>
+    <string name="report_one">Reporte Uno</string>
+    <string name="report_two">Reporte Dos</string>
+
+    <string name="blank_quantity">El valor no puede ser vacio</string>
+    <string name="quantity_greater_than_zero">El valor debe ser mayor que cero</string>
+    <string name="phone_saved">Telefono Agregado!</string>
+
+    <string name="report_one_message">Total de Apples Negros</string>
+    <string name="report_two_message">Precio Promedio de celulares Nokia</string>
+
+    <string name="apple">Apple</string>
+    <string name="nokia">Nokia</string>
+
+    <string name="black">Negro</string>
+    <string name="red">Rojo</string>
+    <string name="blue">Azul</string>
+    <string name="white">Blanco</string>
+    <string name="gray">Gris</string>
+
+    <string-array name="home_options">
+        <item>@string/create_phone</item>
+        <item>@string/list_phones</item>
+        <item>@string/report_one</item>
+        <item>@string/report_two</item>
+    </string-array>
+
+    <string-array name="brands_list">
+        <item>@string/apple</item>
+        <item>@string/nokia</item>
+    </string-array>
+
+    <string-array name="colors_list">
+        <item>@string/black</item>
+        <item>@string/red</item>
+        <item>@string/blue</item>
+        <item>@string/gray</item>
+        <item>@string/white</item>
+    </string-array>
+</resources>

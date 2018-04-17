@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller Dos Clase</string>
+
+    <string name="options">Options</string>
+    <string name="price">Price</string>
+    <string name="brand">Brand</string>
+    <string name="color">Color</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+
+    <string name="create_phone">Create Phone</string>
+    <string name="list_phones">List Phones</string>
+    <string name="report_one">Report One</string>
+    <string name="report_two">Report Two</string>
+
+    <string name="blank_quantity">Value can not be blank</string>
+    <string name="quantity_greater_than_zero">Value should be greater than zero</string>
+    <string name="phone_saved">Phone Saved!</string>
+
+    <string name="report_one_message">Total Black Apple phones</string>
+    <string name="report_two_message">Average price of Nokia phones</string>
+
+    <string name="apple">Apple</string>
+    <string name="nokia">Nokia</string>
+
+    <string name="black">Blank</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="white">White</string>
+    <string name="gray">Gray</string>
+</resources>
