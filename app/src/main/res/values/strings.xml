@@ -28,6 +28,7 @@
     <string name="blue">Azul</string>
     <string name="white">Blanco</string>
     <string name="gray">Gris</string>
+    <string name="invalid_value">Valor Invalido</string>
 
     <string-array name="home_options">
         <item>@string/create_phone</item>

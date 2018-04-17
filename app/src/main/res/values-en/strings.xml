@@ -20,6 +20,7 @@
 
     <string name="report_one_message">Total Black Apple phones</string>
     <string name="report_two_message">Average price of Nokia phones</string>
+    <string name="invalid_value">Invalid Value</string>
 
     <string name="apple">Apple</string>
     <string name="nokia">Nokia</string>

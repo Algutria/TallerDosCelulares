@@ -65,6 +65,12 @@ public class CreatePhone extends AppCompatActivity {
             return false;
         }
 
+        if (input.getText().toString().trim().equals(".")) {
+            input.requestFocus();
+            input.setError(getString(R.string.invalid_value));
+            return false;
+        }
+
         if (Double.parseDouble(input.getText().toString()) == 0) {
             input.requestFocus();
             input.setError(getResources().getString(R.string.quantity_greater_than_zero));
